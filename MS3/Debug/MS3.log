@@ -1,0 +1,25 @@
+﻿Build started 10-11-2016 19:16:32.
+     1>Project "E:\STUDY\SENECA\SEM1\IPC\MS3\MS3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ipc_ms3.c
+         ipc_ms3.c
+     1>e:\study\seneca\sem1\ipc\ms3\ipc_ms3.c(24): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : see declaration of 'scanf'
+     1>e:\study\seneca\sem1\ipc\ms3\ipc_ms3.c(28): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : see declaration of 'scanf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\STUDY\SENECA\SEM1\IPC\MS3\Debug\MS3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\STUDY\SENECA\SEM1\IPC\MS3\Debug\MS3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\STUDY\SENECA\SEM1\IPC\MS3\Debug\MS3.lib" /MACHINE:X86 Debug\ipc_ms3.obj
+     1>ipc_ms3.obj : error LNK2019: unresolved external symbol _pause referenced in function _main
+     1>ipc_ms3.obj : error LNK2019: unresolved external symbol _clrKyb referenced in function _yes
+     1>ipc_ms3.obj : error LNK2019: unresolved external symbol _totalAfterTax referenced in function _main
+     1>ipc_ms3.obj : error LNK2019: unresolved external symbol _isLowQty referenced in function _main
+     1>ipc_ms3.obj : error LNK2019: unresolved external symbol _itemEntry referenced in function _main
+     1>ipc_ms3.obj : error LNK2019: unresolved external symbol _dspItem referenced in function _main
+     1>ipc_ms3.obj : error LNK2019: unresolved external symbol _listItems referenced in function _main
+     1>ipc_ms3.obj : error LNK2019: unresolved external symbol _locateItem referenced in function _main
+     1>E:\STUDY\SENECA\SEM1\IPC\MS3\Debug\MS3.exe : fatal error LNK1120: 8 unresolved externals
+     1>Done Building Project "E:\STUDY\SENECA\SEM1\IPC\MS3\MS3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.89
